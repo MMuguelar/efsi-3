@@ -16,6 +16,7 @@ html {
   body {
     margin-bottom: 60px;
    
+   
     
   }
   .lll
@@ -28,7 +29,7 @@ html {
   }
   .FondoNegro2
   {
-    background-color: #272727;
+    background-image:url("/Imagenes/fondoBack.jpg") ;
     color: rgb(255, 255, 255);
   }
   .FondoNegro
@@ -50,6 +51,12 @@ html {
    color: white;
   
   }
+  .centerr
+  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
   .contenedor {
     margin-left: 2px;
     margin-right: 2px;
@@ -69,6 +76,7 @@ html {
     margin-right: 5px;
     margin-bottom: 5px;
     float: left;
+    
   
   }
   .contenedor8 {
@@ -361,7 +369,9 @@ html {
       url(https://example.com/MaterialIcons-Regular.woff) format('woff'),
       url(https://example.com/MaterialIcons-Regular.ttf) format('truetype');
   }
-  
+  .mB{
+    margin-bottom: 150px;
+  }
   .material-icons {
     font-family: 'Material Icons';
     font-weight: normal;
@@ -389,7 +399,29 @@ html {
   
   .tamanoImg{
   width:auto;
-  height:300px;
+  height:250px;
   
   }
-  
+  .tamanoImgS{
+    width:auto;
+    height:75px;
+    
+    }
+    .columna {
+      float: left;
+      margin-left: 40px;
+      margin-right:40px ;
+      margin-bottom: 40px;
+      padding-right: 5px;
+     
+    }
+    
+    .fila::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+
+   .cartctext{
+    text-align: left;
+   }
